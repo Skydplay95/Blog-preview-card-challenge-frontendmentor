@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+}
+
+.card-preview {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 20px;
+  border: solid 1px hsl(0, 0%, 7%);
+  box-shadow: 5px 5px 1px hsl(0, 0%, 7%);
+  height: 70%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.img-card {
+  border-radius: 10px;
+}
+
+.btn-text {
+  font-size: 17px;
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  text-align: center;
+  align-self: center;
+  padding: 5px 10px;
+  width: 25%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.date-text {
+  margin: 0;
+}
+
+.title-text {
+  padding-left: 0;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.title-text:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.description-text {
+  font-weight: 500;
+  width: 300px;
+  color: hsl(0, 0%, 50%);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.avatar {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 10px;
+}
+
+.item-name {
+  font-weight: 700;
+}
